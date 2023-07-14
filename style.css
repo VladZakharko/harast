@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .page1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrap .page1 .header {
+  width: 100%;
+  height: 97px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+.wrap .page1 .header .leftHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrap .page1 .header .leftHeader .logoIcon {
+  width: 42px;
+  height: 43px;
+  background-image: url(./img/Group\ 2.png);
+  background-size: cover;
+}
+.wrap .page1 .header .leftHeader .logoName h3 {
+  font-size: 30px;
+  color: #000;
+  letter-spacing: 3px;
+  font-weight: 700;
+  font-family: "Poppins";
+  font-style: normal;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px 0 0 10px;
+}
+.wrap .page1 .header .centerHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .page1 .header .centerHeader .nav {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.wrap .page1 .header .centerHeader .nav .home a {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  color: #000;
+}
+.wrap .page1 .header .centerHeader .nav .projects a {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+}
+.wrap .page1 .header .centerHeader .nav .contact a {
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #000;
+}
+.wrap .page1 .header .rightHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.wrap .page1 .header .rightHeader .language {
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black;
+  margin-right: 20px;
+  color: #000;
+  font-family: "Montserrat";
+  font-weight: 600;
+  cursor: pointer;
+}
+.wrap .page1 .header .rightHeader .start {
+  width: 143px;
+  height: 54px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.wrap .page1 .page1Title {
+  width: 720px;
+  height: 210px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.wrap .page1 .text {
+  width: 720px;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .page1 .text h2 {
+  display: flex;
+  width: 720px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 62px;
+}
+.wrap .page1 .text p {
+  display: flex;
+  width: 607px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+}
+.wrap .page1 .page1TitleArrow {
+  width: 200px;
+  height: 306px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.wrap .page1 .page1TitleArrow .arow1 {
+  width: 65px;
+  height: 32.127px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #F986FC;
+}
+.wrap .page1 .page1TitleArrow .arow2 {
+  width: 135.5px;
+  height: 32.527px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #68E7DF;
+}
+.wrap .page1 .page1TitleArrow .arow3 {
+  width: 95px;
+  height: 49.518px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #F986FC;
+}
+.wrap .page1 .page1TitleArrow .arow4 {
+  width: 86px;
+  height: 19.356px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #68E7DF;
+}
+.wrap .page1 .efficiency {
+  width: 440px;
+  height: 183px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: #FFAFCC;
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.wrap .page1 .efficiency .efficiencyText {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 0px 20px;
+}
+.wrap .page1 .efficiency .efficiencyText h2 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wrap .page1 .efficiency .efficiencyText .h2Span {
+  color: #FA5792;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.wrap .page1 .efficiency .efficiencyText p {
+  display: flex;
+  width: 230px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.wrap .page1 .efficiency .efficiencyText p .pSpan {
+  font-weight: 600;
+}
+.wrap .page1 .efficiency .efficiencyGirl {
+  width: 328px;
+  height: 237px;
+  flex-shrink: 0;
+  background-image: url(./img/young-woman-isolated-white-wall\ 1.png);
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  right: 100px;
+  bottom: 56px;
+}
+.wrap .page1 .efficiencyBackgroung {
+  width: 440px;
+  height: 183px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  border: 1px solid #000;
+  background: transparent;
+  z-index: -2;
+  position: absolute;
+  bottom: 145px;
+  left: 525px;
+}/*# sourceMappingURL=style.css.map */
